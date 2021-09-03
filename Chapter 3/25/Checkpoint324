@@ -1,0 +1,21 @@
+import java.util.Scanner;
+/*Complete the following program skeleton by writing a switch statement that displays “one” if the user has entered 1, “two” if the user has entered 2, and “three” if
+the user has entered 3. If a number other than 1, 2, or 3 is entered, the program should display an error message.*/
+public class CheckPoint324
+
+{
+  private int test;
+
+
+  public static void test1(String[] args)
+{
+int userNum;
+Scanner keyboard = new Scanner(System.in);
+System.out.print("Enter one of the numbers " +
+"1, 2, or 3: ");
+userNum = keyboard.nextInt();
+//
+// Write the switch statement here.
+//
+}
+}
